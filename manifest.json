@@ -8,6 +8,9 @@
   "short_name": "시간의 법",
   "start_url": "https://sevenworkslee.github.io/pwatest/",
   "theme_color": "#ffffff",
+  "description": "1만 시간의 법칙으로 PWA 공부하기",
+  "lang": "ko"
+  
   "icons": [
     {
       "src": "img/favicon.ico"
@@ -462,7 +465,4 @@
     }
   ],
 
-  
-  "description": "1만 시간의 법칙으로 PWA 공부하기",
-  "lang": "ko"
 }
