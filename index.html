@@ -9,11 +9,15 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/10000hours.css">   
     <title>1만 시간의 법칙</title>
-    <script type="module">
-        import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-        const el = document.createElement('pwa-update');
-        document.body.appendChild(el);
-     </script>
+   <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker
+            .register('./service_worker.js')
+            .then(function(){
+                console.log('서비스워커가 등록됨!');
+            })
+        }
+    </script>
 </head>
 <body>
     <section id="contents">
