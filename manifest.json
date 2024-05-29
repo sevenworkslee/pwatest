@@ -6,7 +6,7 @@
   "orientation": "portrait",
   "scope": "/",
   "short_name": "시간의 법",
-  "start_url": "./index.html",
+  "start_url": "/index.html",
   "theme_color": "#ffffff",
   "description": "1만 시간의 법칙으로 PWA 공부하기",
   "lang": "ko",
