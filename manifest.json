@@ -9,7 +9,7 @@
   "start_url": "https://sevenworkslee.github.io/pwatest/",
   "theme_color": "#ffffff",
   "description": "1만 시간의 법칙으로 PWA 공부하기",
-  "lang": "ko"
+  "lang": "ko",
   
   "icons": [
     {
@@ -463,6 +463,6 @@
       "src": "Images/ios/1024.png",
       "sizes": "1024x1024"
     }
-  ],
+  ]
 
 }
